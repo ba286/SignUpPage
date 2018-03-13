@@ -59,8 +59,8 @@ div.banner {
 	content:"sign.jpg";
 	background-image:url("sign.jpg");
 	background-size: cover;
-	padding-top:4%;
-	padding-bottom: 5%;
+	padding-top:6%;
+	padding-bottom: 6%;
 	margin-top: 0;
 	border-bottom: solid red;
 	border-top: solid black;
@@ -73,11 +73,12 @@ div.banner {
 	font-size: 2em;
 	text-align: left;
 	padding-left: 9%;
+	padding-top: 5%;
 	}
 
 .form-signin {
-  max-width: 250px;
-  padding: 15px;
+  max-width: 350px;
+  padding: 13px;
   margin: 0 auto;
 }
 .form-signin .form-signin-heading,
@@ -93,13 +94,23 @@ div.banner {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 10px;
+  padding: 28px;
   font-size: 16px;
-  height: 30px;
+  height: 10px;
+  border-color: #E5E4E2;
+  border-width: 3px;
 }
 .form-signin .form-control:focus {
   z-index: 2;
+  box-shadow: red;
 }
+
+#submitButton {
+	background-color: #FF6347;
+	border-color: grey;
+	font-size: 28px;
+}
+
 body h2 {
 	display: block;
 	text-align: center;
