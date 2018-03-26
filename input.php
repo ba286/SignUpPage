@@ -29,6 +29,6 @@ if (count($results) > 0){
 $sql = "INSERT INTO ba286.accounts (email, fname, lname,phone, birthday,
 		gender,password) VALUES ('$email', '$first', '$last', '$phone', '$bday', '$gender', '$pass')";
 $results = runQuery($sql);
-	header("Location: jfvsignup.html");
+	header("Location: thankyou.html");
 
 ?>
