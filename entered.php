@@ -31,23 +31,12 @@
 	</main>
 	<body>
 		<a href="../JustForViews/index.html">I used my website on this link as a template for this sign up page</a>
-		<h2>Log In</h2>
-		<div class="container">
-
-	      	<form class="form-signin" method="get" action="login.php">
-	       		<input type="text" id="email_addr" class="form-control" placeholder="E-mail Address" name="reg_email" required />
-	       		<input type="password" id="pass_wrd" class="form-control" placeholder="Password" name="reg_pass" required />
-	       		<br />
-	       		<button class="btn btn-lg btn-primary btn-block" type="submit" id="submitButton">Welcome Back!</button>
-	   		</form>
-
-	    </div> 
-	<div id="logging"> 
-	    <a href="jfvsignup.html"> Not Registered Yet? Sign Up Here!</a>
-	</div>
+		<h2>Long Time No See,</br><?php echo "Sir"; ?></h2>
+		<?php include 'input.php';
+		echo '$first $last';?>
 	</body>
 
 	<footer>
-		<p>&copy; 2017 JFV  Productions</p>
+		<p>&copy; 2017 JFV Productions</p>
 	</footer>
 </html>
