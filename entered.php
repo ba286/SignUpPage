@@ -31,7 +31,7 @@
 	</main>
 	<body>
 		<a href="../JustForViews/index.html">I used my website on this link as a template for this sign up page</a>
-		<h2>Long Time No See,</br><?php echo "Sir"; ?></h2>
+		<h2>Long Time No See..</br><?php echo "Welcome to our creative space!"; ?></h2>
 	</body>
 
 	<footer>
