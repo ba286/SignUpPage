@@ -1,7 +1,9 @@
 <?php
 require "db.php" ;
-$email = $_GET['reg_email'];
+session_start();
 
+$email = $_GET['reg_email'];
+$_SESSION['email'] = $email;
 $pass = $_GET['reg_pass'];
 
 $sql = 'SELECT * FROM ba286.accounts where email="'.$email.'"';
