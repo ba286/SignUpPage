@@ -40,7 +40,8 @@ $results = runQuery($sql);
 	<body>
 		<a href="../JustForViews/index.html">I used my website on this link as a template for this sign up page</a>
 		<h2>Long Time No See..<?php echo $results[0][2].' '.$results[0][3]; ?></br>
-			<?php echo "Welcome to our creative space!"; ?></h2>
+			<?php echo "Welcome to our creative space!"; ?></br></br></h2>
+
 	</body>
 
 	<footer>
