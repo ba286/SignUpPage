@@ -1,9 +1,8 @@
-/* the styles for the elements */
 html {
 	background-color: white;
 }
 
-/* the styles for the body */
+
 main {
 	background-color: #E5E4E2;
 }
@@ -106,11 +105,36 @@ div.banner {
 }
 
 #submitButton {
-	background-color: #FF6347;
+	background-color: red;
 	border-color: grey;
 	font-size: 28px;
 }
 
+#logging {
+	padding-top: 5px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#table {
+	position: center;
+}
+
+div.container {
+	width: 60%;
+	border-radius: 10px;
+	background-image:url("blossom.JPG");
+	background-size: cover;
+	opacity: .6;
+}
+div.contained {
+	position: center;
+	width: 60%;
+	border-radius: 10px;
+	background-image:url("skything.jpg");
+	background-size: cover;
+	opacity: .6;
+}
 body h2 {
 	display: block;
 	text-align: center;
@@ -186,12 +210,105 @@ footer {
 	background-color: #E5E4E2;
 	color: grey;
 	text-align:center;
-	margin-top: 5%;
 	font-family: "Arial Rounded MT Bold";
 }
 .slicknav_menu {
 	display: none;
 }
+.add a{
+	text-decoration: none;
+}
+.add {
+	text-decoration: none;
+	text-align: center;
+	clear: both;
+	font-style: Arial;
+	color:grey;
+	background-color: white;
+	display: block;
+	height: 60%;
+	width: 7%;
+	margin-left:46.5%;
+	margin-right:46.5%;
+	border: double grey;
+	border-width: 5px;
+	border-radius: 2px;
+}
+.add:hover {
+	clear: both;
+	color: white;
+	display: block;
+	background-color: grey;
+	border: black;
+	border-width: 0.5px;
+	}
+
+.deletedItem{
+	clear: both;
+	font-style: Arial;
+	color:red;
+	background-color: white;
+	display: block;
+	height: 100%;
+	width: 100%;
+	border: double red;
+	border-width: .5px;
+	border-radius: 2px;
+}
+.deletedItem:hover {
+	clear: both;
+	color: white;
+	display: block;
+	height: 150%;
+	width: 100%;
+	background-color: red;
+	border: black;
+	border-width: 0.5px;
+}
+.completedItem{
+	clear: both;
+	font-style: Arial;
+	color:green;
+	background-color: white;
+	display: block;
+	height: 100%;
+	width: 100%;
+	border: double green;
+	border-width: .5px;
+	border-radius: 2px;
+}
+.completedItem:hover {
+	clear: both;
+	color: white;
+	display: block;
+	height: 150%;
+	width: 100%;
+	background-color: green;
+	border: black;
+	border-width: 0.5px;
+	}
+.editItem{
+	clear: both;
+	font-style: Arial;
+	color:skyblue;
+	background-color: white;
+	display: block;
+	height: 100%;
+	width: 100%;
+	border: double skyblue;
+	border-width: .5px;
+	border-radius: 2px;
+}
+.editItem:hover {
+	clear: both;
+	color: white;
+	display: block;
+	height: 150%;
+	width: 100%;
+	background-color: skyblue;
+	border: black;
+	border-width: 0.5px;
+	}
 
 /* mobile landscape to tablet portrait */
 @media only screen and (max-width: 800px) {
